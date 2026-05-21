@@ -19,7 +19,7 @@ const app = express();
 // In development the frontend is opened as a file:// or localhost
 app.use(cors({
 origin: [
-  'https://frabjous-gnome-6884ea.netlify.app',
+  'https://taskmanager1891.netlify.app/',
   'http://localhost:5500',
   'http://127.0.0.1:5500',
   'null',
